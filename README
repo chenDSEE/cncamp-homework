@@ -1,0 +1,6 @@
+1. docker build:
+   dk run -p 4000:80 -d homework
+
+2. usage:
+   1) curl http://172.17.0.2/version
+   2) curl http://172.17.0.2/healthz
