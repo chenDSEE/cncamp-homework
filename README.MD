@@ -6,9 +6,9 @@
    2) curl http://172.17.0.2/healthz
 
 
-- note for example
-**容器网络实验**
+#### note for example
 
+**容器网络实验**
 namespace 互通
 
 - `ip netns` 是去检查 `/var/run/netns`；但是 docker 却没有将每个容器的 net namespace 暴露在这个目录之下
